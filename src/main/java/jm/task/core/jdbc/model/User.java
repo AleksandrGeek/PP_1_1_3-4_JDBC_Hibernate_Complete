@@ -1,7 +1,14 @@
 package jm.task.core.jdbc.model;
 
 
-import javax.persistence.*;
+
+import org.hibernate.annotations.Entity;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Objects;
 
 @Entity

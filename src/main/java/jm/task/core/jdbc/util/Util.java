@@ -7,7 +7,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
 
-import java.sql.*;
+
 import java.util.Properties;
 
 public class Util {
@@ -44,15 +44,7 @@ public class Util {
     }
 
 
-    public Connection getConnection() {
-        try {
-            Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            System.out.println("Создано новое подключение к БД");
-            return connection;
-        } catch (SQLException e) {
-            throw new RuntimeException("Ошибка подключения к БД: " + e.getMessage(), e);
-        }
-    }
+
 
     // Hibernate SessionFactory
     public static SessionFactory getSessionFactory() {
