@@ -1,4 +1,16 @@
+# IDE
 .idea/
-target/
 *.iml
-*.class
+*.iws
+
+# Maven
+target/
+.mvn/
+.m2/
+
+# System
+.DS_Store
+Thumbs.db
+
+# JDK
+.jdks/
