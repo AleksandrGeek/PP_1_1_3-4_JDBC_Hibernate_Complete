@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Версии зависимостей -->
-        <hibernate.version>5.6.15.Final</version>
+        <hibernate.version>5.6.15.Final</hibernate.version>
         <mysql.version>8.0.33</mysql.version>
         <junit.version>4.13.2</junit.version>
     </properties>
